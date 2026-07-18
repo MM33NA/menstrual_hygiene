@@ -1,0 +1,16 @@
+# Ignore raw SPSS data files
+*.sav
+
+# Ignore processed data outputs to prevent bloating the repo
+*.csv
+*.xlsx
+
+# Ignore R environment history and local workspace configurations
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
