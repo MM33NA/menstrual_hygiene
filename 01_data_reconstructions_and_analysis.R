@@ -15,7 +15,7 @@ library(haven)      # For robust ingestion of native SPSS (.sav) files and attri
 library(psych)      # For scale reliability engineering (Cronbach's Alpha)
 
 # Define file path
-spss_data_path <- "menstrual_hygiene/change.sav"
+spss_data_path <- "change.sav"
 
 # Ingest raw SPSS data while maintaining descriptive variable labels
 raw_survey_data <- read_sav(spss_data_path)
